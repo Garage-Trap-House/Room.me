@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Room.me'),
+      home: SignIn(title: 'Room.me'),
     );
   }
 }
