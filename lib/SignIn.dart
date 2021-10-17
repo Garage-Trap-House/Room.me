@@ -16,9 +16,9 @@ class _SignInPageState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Sign In")
-      ),
+      // appBar: AppBar(
+      //   title: Text("Sign In")
+      // ),
       body: Column(
         children: [
           Text(
@@ -39,6 +39,7 @@ class _SignInPageState extends State<SignIn> {
             ),
           ),
           Container(
+            width: 400,
             child: TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -47,6 +48,7 @@ class _SignInPageState extends State<SignIn> {
             ),
           ),
           Container(
+            width: 400,
             child: TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
